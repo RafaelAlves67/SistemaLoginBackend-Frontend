@@ -1,0 +1,50 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    height: 80px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+}
+
+nav > div > a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+nav > div > a:hover{
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+.logo{
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.btn-logged{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    margin-right: 30px;
+    padding: 5px;
+
+}
+
+.btn-logged:hover{
+    background-color: #ccc;
+    border-radius: 10px;
+}
